@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* ************ */
+/* header start */
+/* ************ */
+
+.container{
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    background: url(../img/banner.jpg) no-repeat center center / cover;
+    width: 100%;
+    height: 700px;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.banner{
+    align-items: center;
+    padding: 210px 260px;
+    font-size: 40px;
+}
+
+.banner h3{
+    color: rgb(255, 248, 198);
+    text-shadow:7px 0px 3px #000000;
+}
+
+.banner h2{
+    color: rgb(255, 248, 198);
+    text-shadow:7px 0px 3px #000000;
+}
+
+/* ************* */
+/* header   stop */
+/* section start */
+/* ************* */
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc{
+    display: flex;
+    margin: 80px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px 10px rgb(87, 87, 87);
+    border-radius: 5%;
+    padding: 25px 30px;
+}
+
+.bloc-img{
+    border-radius: 12.5%;
+}
+
+.bloc-h1{
+    padding: 15px 30px ;
+    width: 425px;
+}
+
+.bloc-h1 p{
+    width: 400px;
+    font-size: 22.5px;
+    color: #575757;
+}
+
+.bloc-h1 h1{
+    margin: 10px 0;
+    color: rgb(59, 87, 214);
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
+.bloc-btn{
+    width: 100px;
+    height: 30px;
+    background: #ececec;
+    color: black;
+    margin: 15px 0;
+    border: none;
+}
+
+.bloc-btn:hover{
+    width: 100px;
+    height: 30px;
+    background: rgb(59, 87, 214);
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f7fd;
+}
+
+.book{
+    width: 340px;
+    align-items: center;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 0 5px 10px 10px rgb(87, 87, 87);
+    border-radius: 5%;
+    padding: 25px 40px;
+}
+
+.book h3{
+    text-align: center;
+}
+
+.book img{
+    margin: 40px 0;
+    border-radius: 10%;
+}
+
+.book p{
+    margin-bottom: 40px;
+}
+
+.book a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+/* ************ */
+/* section stop */
+/* footer start */
+/* ************ */
+
+.gut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.gut h2{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.left li a{
+    color: rgb(163, 199, 199);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 20px;
+    padding: 0px 0px;   
+}
+.left li a:hover{
+    color: rgb(89, 139, 231);
+    font-weight: 500;
+    font-size: 21px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    background: url(../img/svet-v-restorane.jpg);
+}
+.button h2 a{
+    font-family: "Roboto", sans-serif;
+    color: darkgoldenrod;
+}
+.button ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.button ul li a{
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid aliceblue;
+}
+.button ul li a:hover{
+    color: rgb(163, 199, 199);
+    border-bottom: 1px solid aliceblue;
+    font-size: 17px;
+}
+.button2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    background:url(../img/svet-v-restorane.jpg);
+    gap: 470px;
+}
+.button2 h4{
+    font-family: "Roboto", sans-serif;
+    color: darkgoldenrod;
+    font-size: 25px; 
+}
+.button2 h5{
+    font-size: 22px;
+}
+
+.gps{
+    display: flex;
+    box-shadow: 0 15px 10px 0px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 150px auto;
+}
